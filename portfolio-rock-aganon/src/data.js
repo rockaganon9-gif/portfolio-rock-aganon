@@ -52,31 +52,29 @@ export const skillCards = [
 ]
 
 export const projects = [
-  // ✏️ À MODIFIER : remplacez par vos vrais projets.
-  // `image` : mettez un fichier dans /public (ex. '/projet1.png'). Sans image, un visuel de remplacement s'affiche.
   {
-    title: 'Gestionnaire de tâches',
-    text: "Application web pour créer, trier et suivre ses tâches au quotidien. Les données sont conservées dans le navigateur, avec un filtre par statut et un mode sombre. Projet réalisé pendant ma formation pour maîtriser l'état et les composants React.",
-    tags: ['React', 'Tailwind CSS', 'JavaScript'],
-    image: '',
-    demo: 'https://exemple.com',
-    code: 'https://github.com/votre-pseudo/gestionnaire-taches',
+    title: 'Global Market',
+    text: "Marketplace multi-vendeurs pour l'Afrique : les vendeurs ouvrent leur boutique et publient des produits physiques ou digitaux, les acheteurs commandent avec Mobile Money, carte bancaire ou paiement à la livraison. Le projet est un monorepo complet : site web, API avec base de données et application mobile.",
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'React Native'],
+    image: '/projects/global-market.webp',
+    demo: 'https://global-market-beige.vercel.app/',
+    code: 'https://github.com/rockaganon9-gif/global-market',
   },
   {
-    title: 'Site vitrine de restaurant',
-    text: "Site responsive de présentation d'un restaurant : menu, galerie et formulaire de réservation.",
+    title: 'Pros-cours',
+    text: "Site vitrine pour une agence de livraison au Bénin (repas, colis, courses). Le client décrit sa course dans un formulaire, et la demande est préparée automatiquement pour WhatsApp. Une page claire sur les services, le fonctionnement et les zones desservies.",
     tags: ['HTML', 'CSS', 'JavaScript'],
-    image: '',
-    demo: 'https://exemple.com',
-    code: 'https://github.com/votre-pseudo/site-restaurant',
+    image: '/projects/pros-cours.webp',
+    demo: 'https://pro-coursec.netlify.app/',
+    code: '',
   },
   {
-    title: 'Application météo',
-    text: "Recherche de ville et affichage des prévisions en temps réel grâce à une API REST, avec gestion des erreurs.",
-    tags: ['React', 'API REST'],
-    image: '',
-    demo: 'https://exemple.com',
-    code: 'https://github.com/votre-pseudo/app-meteo',
+    title: 'Meublier',
+    text: "Site e-commerce de démonstration pour un studio de design d'intérieur : catalogue filtrable par catégorie, collections, témoignages et mise en page responsive.",
+    tags: ['HTML', 'CSS', 'JavaScript'],
+    image: '/projects/agn-meuble.webp',
+    demo: 'https://agn-meuble.netlify.app/',
+    code: '',
   },
 ]
 
