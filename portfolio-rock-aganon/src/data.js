@@ -6,17 +6,20 @@
 export const profile = {
   firstName: 'Rock',
   lastName: 'Aganon',
-  role: 'Développeur web front-end',
+  role: 'Développeur web full-stack',
   availability: 'Ouvert aux opportunités', // ✏️ À MODIFIER (ex. : « Recherche un stage / une alternance »)
   heroText:
-    'Je conçois des interfaces web claires, rapides et accessibles avec React. Fraîchement diplômé, je transforme des maquettes en sites qui fonctionnent partout.',
+    'paragraphs: [
+  "Je suis Rock Aganon, développeur web full-stack en fin de formation à EIG Bénin. J'aime construire des applications complètes, de l'interface React jusqu'à l'API et à la base de données, avec un code propre et facile à maintenir.",
+  "J'ai déjà mis en ligne plusieurs projets, dont une marketplace multi-vendeurs et des sites vitrines pour des activités locales. Je cherche maintenant une première expérience dans une équipe où progresser vite et contribuer dès le départ.",
+],.',
   // Photo : déposez votre image dans le dossier /public sous le nom photo.jpg
   photo: '/photo.jpg',
 
   // ✏️ À MODIFIER : coordonnées
-  email: 'rock.aganon@exemple.com',
-  github: 'https://github.com/votre-pseudo',
-  linkedin: 'https://linkedin.com/in/votre-profil',
+  email: 'rockaganon9@gmail.com',
+  github: 'https://github.com/rockaganon9-gif',
+  linkedin: 'https://linkedin.com/in/RockyAGANON',
 
   // ✏️ À MODIFIER : chiffres affichés sous l'accroche (restez honnête, c'est plus crédible)
   stats: [
@@ -84,7 +87,7 @@ export const about = {
     "Je cherche une première expérience dans une équipe où progresser vite, apprendre des développeurs plus expérimentés et livrer des interfaces dont on est fier. Curieux et rigoureux, je me forme en continu.",
   ],
   // ✏️ À MODIFIER
-  training: 'Formation professionnelle en développement web — Nom de votre établissement, 2026',
+  training: 'Formation professionnelle en développement web — EIG BENIN 2026',
   stack: ['React', 'JavaScript', 'HTML / CSS', 'Tailwind CSS', 'GitHub', 'PHP', 'Laravel', 'WordPress'],
 }
 
